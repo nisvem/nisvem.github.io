@@ -1,0 +1,101 @@
+@import "../../style/variables";
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0 64px;
+
+  @include vp-768 {
+    padding: 100.5px 0 72px;
+  }
+
+  &__title {
+    font-family: $ff-title;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%;
+    margin-top: 0;
+    margin-bottom: 44px;
+    max-width: 400px;
+
+    @include vp-768 {
+      max-width: 100%;
+    }
+
+    @include vp-1280 {
+      font-size: 43px;
+      line-height: 120.93%;
+      margin-bottom: 72px;
+    }
+  }
+
+  &__underline {
+    @include vp-768 {
+      position: relative;
+      display: inline-block;
+      z-index: 0;
+
+      &::before {
+        content: "";
+        display: block; 
+        position: absolute;
+        z-index: -1;
+        bottom: 1px;
+        left: -2px;
+        right: -2px;
+        height: 8px;
+  
+        background-color: $color-text-underline;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  &__underlinePart {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+
+    &::before {
+      content: "";
+      display: block; 
+      position: absolute;
+      z-index: -1;
+      bottom: 3px;
+      left: -2px;
+      right: -2px;
+      height: 8px;
+
+      background-color: $color-text-underline;
+      border-radius: 6px;
+
+      @include vp-768 {
+        content: none;
+      }
+    }
+  }
+
+
+  &__list {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 43px;
+    column-gap: 43px;
+
+    @include vp-768 {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include vp-1280 {
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 76px;
+      column-gap: 76px;
+    }
+  }
+}
+

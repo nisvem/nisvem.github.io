@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0aa2d251.css",
+    "main.js": "/static/js/main.e70eee6a.js",
+    "static/media/Literata.ttf": "/static/media/Literata.e65e75df04f03038b940.ttf",
+    "static/media/OpenSans.ttf": "/static/media/OpenSans.071a1becc7f00e33cc5b.ttf",
+    "static/media/Literata.woff2": "/static/media/Literata.3b00050d9b73fa582df3.woff2",
+    "static/media/OpenSans.woff2": "/static/media/OpenSans.170db3f33ce95c718e3d.woff2",
+    "static/media/bg.jpeg": "/static/media/bg.63df40750cc82c0679d5.jpeg",
+    "static/media/Literata.woff": "/static/media/Literata.1f3d3685cf27ec9535fc.woff",
+    "static/media/OpenSans.woff": "/static/media/OpenSans.8ed086d46abbd59e9772.woff",
+    "static/media/bg.webp": "/static/media/bg.714c6b34666ec8d31c36.webp",
+    "static/media/usa.png": "/static/media/usa.78525701d0a0379cde73.png",
+    "static/media/usa.webp": "/static/media/usa.647f7cde689da652efaa.webp",
+    "index.html": "/index.html",
+    "main.0aa2d251.css.map": "/static/css/main.0aa2d251.css.map",
+    "main.e70eee6a.js.map": "/static/js/main.e70eee6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0aa2d251.css",
+    "static/js/main.e70eee6a.js"
+  ]
+}
